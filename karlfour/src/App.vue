@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld />
+    <base-layout>
+      <HomePage />
+    </base-layout>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import HomePage from './components/HomePage.vue'
+import BaseLayout from './components/base-layout.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HomePage,
+    BaseLayout
   }
 }
 </script>
