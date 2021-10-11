@@ -1,6 +1,6 @@
 <template>
     <footer class="footer">
-        <h4>Une gamme de produit accéssible fait pour vous !</h4>
+        <h4>Une gamme de produit accéssible faites pour vous ! N'hésitez plus à faire plaisir !</h4>
     </footer>
 </template>
 
@@ -16,7 +16,7 @@ export default {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: #333;
   color: white;
   text-align: center;
 }

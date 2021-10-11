@@ -4,6 +4,7 @@
         <a href="#home">Home</a>
         <a href="#news">Shop</a>
         <a href="#contact">Contact</a>
+        <a href="#basket">Basket</a>
       </div>
     </header>
 </template>
@@ -18,12 +19,11 @@ export default {
 .page_top {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-/* Links inside the navbar */
 .page_top a {
   float: left;
   display: block;
@@ -33,7 +33,6 @@ export default {
   text-decoration: none;
 }
 
-/* Change background on mouse-over */
 .page_top a:hover {
   background: #ddd;
   color: black;
