@@ -1,18 +1,43 @@
 <template>
     <header>
       <div class="page_top">
-        <a href="#home">Home</a>
-        <a href="#news">Shop</a>
-        <a href="#contact">Contact</a>
-        <a href="#basket">Basket</a>
+        <!--<button @click="GoHome()">Home</button>
+        <button @click="GoShop()">Shop</button>
+        <button @click="GoContact()">Contact</button>
+        <button @click="GoBasket()">Basket</button>-->
       </div>
     </header>
 </template>
 
 <script>
+import BasketPage from './BasketPage';
+import ContactPage from './ContactPage';
+import ShopPage from './ShopPage';
+
 export default {
   name: 'base-header',
+  components: {
+    BasketPage,
+    ContactPage,
+    ShopPage
+  },
+  methods: {
+    goHome(){
+      location.replace("./components/HomePage/HomePage.vue")
+    }
+  }
 }
+
+function GoShop(){
+  location.replace("./components/HomePage/ShopPage.vue")
+}
+function GoContact(){
+  location.replace("./components/HomePage/ContactPage.vue")
+}
+function GoBasket(){
+  location.replace("./components/HomePage/BasketPage.vue")
+}
+
 </script>
 
 <style scoped>

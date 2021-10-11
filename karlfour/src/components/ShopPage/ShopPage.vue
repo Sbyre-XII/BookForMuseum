@@ -1,9 +1,9 @@
 <template>
-  <h1>ContactPage</h1>
+  <h1>ShopPage</h1>
 </template>
 
 <script>
 export default {
-  name: 'ContactPage',
+  name: 'ShopPage',
 }
 </script>

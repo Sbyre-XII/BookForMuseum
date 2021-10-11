@@ -1,5 +1,5 @@
 <template>
-  <h1>ContactPage</h1>
+  <h1>BasketPage</h1>
 </template>
 
 <script>
