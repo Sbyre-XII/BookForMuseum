@@ -1,5 +1,5 @@
 <template>
-    <div id="product">
+    <div class="product" id="product">
         <h2>{{title}}</h2>
         <h3>{{description}}</h3>
         <h3>{{price}}</h3>
@@ -26,5 +26,12 @@ export default{
     border-radius: 4px;
     padding: 5px;
     width: 150px;
+}
+.product{
+    border: solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-radius: 25px;
+    margin: 5px;
 }
 </style>
