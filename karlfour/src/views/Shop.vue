@@ -1,6 +1,10 @@
-// views/Profile.vue
-    <template>
-      <div class="home">
-        Shop Info
-      </div>
-    </template>
+// views/Shop.vue
+<template>
+  <h1>ShopPage</h1>
+</template>
+
+<script>
+export default {
+  name: 'ShopPage',
+}
+</script>

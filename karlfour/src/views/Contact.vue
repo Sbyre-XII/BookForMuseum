@@ -1,6 +1,10 @@
-// views/Profile.vue
-    <template>
-      <div class="home">
-        Contact Info
-      </div>
-    </template>
+// views/Contact.vue
+<template>
+  <h1>ContactPage</h1>
+</template>
+
+<script>
+export default {
+  name: 'ContactPage',
+}
+</script>

@@ -1,6 +1,10 @@
-// views/Profile.vue
-    <template>
-      <div class="home">
-        Basket Info
-      </div>
-    </template>
+// views/Basket.vue
+<template>
+  <h1>BasketPage</h1>
+</template>
+
+<script>
+export default {
+  name: 'BasketPage',
+}
+</script>
