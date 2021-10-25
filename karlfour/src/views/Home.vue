@@ -1,18 +1,15 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <h1>Bienvenue chez Karlfour !</h1>
+  <h2>Une boutique créée pour répondre aux besoins de nos clients.</h2>
+  <base-product title="M16" description="Fusil d'assault" imageProduct="../components/img/chat.jpg" price="499" />
+  <base-product title="M16" description="Fusil d'assault" imageProduct="../components/img/chat.jpg" price="200" />
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import baseProduct from '../components/base-product.vue'
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
+  components: { baseProduct },
+  name: 'HomePage',
 }
 </script>
+

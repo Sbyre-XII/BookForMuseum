@@ -1,9 +1,10 @@
+// views/Basket.vue
 <template>
-  <h1>ContactPage</h1>
+  <h1>Card</h1>
 </template>
 
 <script>
 export default {
-  name: 'ContactPage',
+  name: 'Card',
 }
 </script>
