@@ -1,11 +1,13 @@
 <template>
     <header>
       <div class="page_top">
-        <a href="#home">Home</a>
-        <a href="#news">Shop</a>
-        <a href="#contact">Contact</a>
-        <a href="#basket">Basket</a>
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> |
+        <router-link to="/card">Card</router-link> |
+        <router-link to="/shop">Shop</router-link> |
+        <router-link to="/contact">Contact</router-link>
       </div>
+      <router-view/>
     </header>
 </template>
 

@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import BaseFooter from './base-footer.vue';
-import BaseHeader from './base-header.vue';
+import BaseFooter from './BaseFooter.vue';
+import BaseHeader from './BaseHeader.vue';
 
 export default {
   name: "base_layout", components: {
