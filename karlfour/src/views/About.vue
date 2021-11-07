@@ -1,7 +1,8 @@
 <template>
   <base-header />
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Nos partenaires</h1>
+    <h2>Ce projet est en collaboration avec de nombreux investisseurs venu de toute les régions du monde ou même d'autre univers.</h2>
   </div>
   <base-footer />
 </template>
